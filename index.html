@@ -1,41 +1,85 @@
 <!DOCTYPE html>
-<!-- saved from url=(0057)https://www.w3schools.com/w3css/tryw3css_templates_cv.htm -->
-<html><style lang="en" type="text/css" id="night-mode-pro-style">html {background-color: #FFFFFF !important; filter: grayscale(3%) !important;} body {background-color: #FFFFFF;}</style><link type="text/css" rel="stylesheet" id="night-mode-pro-link"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style id="stndz-style"></style><title>Edward Omi</title>
-<meta name="description" content="Edward Omi - ICT associate, AI and GIS enthusiast, online business developer, and technology trainer in Papua New Guinea.">
-<meta name="keywords" content="Edward Omi, ICT, AI, GIS, online business, Papua New Guinea">
-<meta name="author" content="Edward Omi">
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edward Omi</title>
+  <meta name="description" content="Edward Omi - ICT associate, AI and GIS enthusiast, online business developer, and technology trainer in Papua New Guinea.">
+  <meta name="keywords" content="Edward Omi, ICT, AI, GIS, online business, Papua New Guinea">
+  <meta name="author" content="Edward Omi">
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Edward Omi",
-  "jobTitle": "ICT Specialist",
-  "url": "https://eddieomi.github.io",
-  "sameAs": [
-    "https://www.linkedin.com/in/edward-omi-profile/",
-    "https://www.youtube.com/@edwardomi8352"
-  ]
-}
+  <!-- W3.CSS + Font Awesome -->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
-</script>
-<link rel="stylesheet" href="./index/w3.css">
-<link rel="stylesheet" href="./index/css">
-<link rel="stylesheet" href="./index/font-awesome.min.css">
-<style>
-html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
-</style>
-<link id="avast_os_ext_custom_font" href="chrome-extension://mbckjcfnjmoiinpgddefodcighgikkgn/common/ui/fonts/fonts.css" rel="stylesheet" type="text/css"></head><body class="w3-light-grey" data-new-gr-c-s-check-loaded="14.1036.0" data-gr-ext-installed="">
+  <style>
+    html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+
+    /* ✅ Responsive iframe */
+    .responsive-iframe {
+      position: relative;
+      overflow: hidden;
+      padding-top: 56.25%; /* 16:9 aspect ratio */
+    }
+    .responsive-iframe iframe {
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+
+    /* ✅ Ensure images resize */
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    /* ✅ Footer link spacing */
+    footer a {
+      margin: 0 10px;
+      color: white;
+      text-decoration: none;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body class="w3-light-grey">
+
+<!-- ✅ Navbar -->
+<div class="w3-bar w3-teal w3-top w3-large">
+  <a href="#" class="w3-bar-item w3-button w3-hide-small">Home</a>
+  <a href="#experience" class="w3-bar-item w3-button w3-hide-small">Experience</a>
+  <a href="#education" class="w3-bar-item w3-button w3-hide-small">Education</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-hide-small">Contact</a>
+
+  <!-- Hamburger button (only visible on mobile) -->
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="toggleMenu()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<!-- Mobile dropdown menu -->
+<div id="mobileMenu" class="w3-bar-block w3-teal w3-hide w3-hide-large w3-hide-medium">
+  <a href="#" class="w3-bar-item w3-button">Home</a>
+  <a href="#experience" class="w3-bar-item w3-button">Experience</a>
+  <a href="#education" class="w3-bar-item w3-button">Education</a>
+  <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+</div>
+
+<!-- Spacer for fixed navbar -->
+<div style="margin-top:50px"></div>
 
 <!-- Page Container -->
 <div class="w3-content w3-margin-top" style="max-width:1400px;">
 
-  <!-- The Grid -->
+  <!-- Grid layout -->
   <div class="w3-row-padding">
-  
+
     <!-- Left Column -->
     <div class="w3-third">
-    
       <div class="w3-white w3-text-grey w3-card-4">
         <div class="w3-display-container">
           <img src="./index/avatar_hat.JPG" style="width:100%" alt="Avatar">
@@ -43,189 +87,61 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
             <h2>Edward Omi</h2>
           </div>
         </div>
-        <div class="w3-container">
-          <p><i class="fas fa-phone-alt fa-fw w3-margin-right w3-large w3-text-teal"></i>ICT Specialist</p>
-          <p><i class="fas fa-phone-alt fa-fw w3-margin-right w3-large w3-text-teal"></i>Buka, Papua New Guinea</p>
-          <p><i class="fas fa-phone-alt fa-fw w3-margin-right w3-large w3-text-teal"></i>omi.edward@gmail.com</p>
-          <p><i class="fas fa-phone-alt fa-fw w3-margin-right w3-large w3-text-teal"></i>Ph: +675 7096 3908</p>
-		  <p><i class="fas fa-phone-alt fa-fw w3-margin-right w3-large w3-text-teal"></i><a href="https://forms.gle/K4jLy2xHuiYy45Hy8" target="_blank">Contact Me</a></p>
+        <div class="w3-container" id="contact">
+          <p><i class="fas fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>ICT Specialist</p>
+          <p><i class="fas fa-map-marker-alt fa-fw w3-margin-right w3-large w3-text-teal"></i>Buka, Papua New Guinea</p>
+          <p><i class="fas fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>omi.edward@gmail.com</p>
+          <p><i class="fas fa-phone-alt fa-fw w3-margin-right w3-large w3-text-teal"></i>+675 7096 3908</p>
+          <p><i class="fas fa-paper-plane fa-fw w3-margin-right w3-large w3-text-teal"></i>
+            <a href="https://forms.gle/K4jLy2xHuiYy45Hy8" target="_blank">Contact Me</a></p>
           <hr>
-
-          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
-          <p>PHP</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:90%">90%</div>
-          </div>
-          <p>Mysql</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">
-              <div class="w3-center w3-text-white">80%</div>
-            </div>
-          </div>
-          <p>procurement</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:75%">75%</div>
-          </div>
-          <p>Networking</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:95%">95%</div>
-          </div>
-          <p>Power Shell</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:95%">95%</div>
-          </div>
-          <p>SharePoint</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:65%">65%</div>
-          </div>
-          <p>Active Directory</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:95%">95%</div>
-          </div>
-          <p>Windows Server Administration</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">80%</div>
-          </div>
-          <br>
-
-          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b></p>
-          <p>English</p>
-          <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
-          </div>
-          <p>Tok Pisin</p>
-          <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
-			</div>
-          <br>
+          <!-- Skills and Languages go here -->
         </div>
       </div><br>
-
-    <!-- End Left Column -->
     </div>
 
     <!-- Right Column -->
     <div class="w3-twothird">
-    
-      <div class="w3-container w3-card w3-white w3-margin-bottom">
+      <div class="w3-container w3-card w3-white w3-margin-bottom" id="experience">
         <h2 class="w3-text-grey w3-padding-16">Work Experience</h2>
-<div class="w3-container">
-          <h5 class="w3-opacity"><b>IT Support Specialist </b></h5>
-          <h5 class="w3-opacity"><b>Employer - ABT Global </b></h5>
-          <h6 class="w3-opacity">Location: Buka Autonomous Region of Bougainville</h6>
-          <h6 class="w3-text-teal">July 2024 - Current <span class="w3-tag w3-teal w3-round"> 1 Year </span></h6>
-          <p>Providing comprehensive ICT support for ABT Global’s Buka and Arawa office, ensuring smooth operation of hardware, software, 
-            and network systems. Responsibilities included troubleshooting technical issues, performing system updates, configuring and
-             maintaining ICT equipment, and providing first-level support to staff. assisting in ICT procurement, monitoring service desk tickets, 
-             and ensuring compliance with company ICT policies. Delivering user training and guidance to promote efficient and secure use of technology 
-             across the office 
-          </p>
-          <hr>
-        </div> 
-<div class="w3-container">
-          <h5 class="w3-opacity"><b>Support Services Senior Assistant (ICT & Logistics) </b></h5>
-          <h5 class="w3-opacity"><b>Employer - United Nations Office for Project Services (UNOPS)</b></h5>
-          <h6 class="w3-opacity">Location: Port Moresby Papua New Guinea</h6>
-          <h6 class="w3-text-teal">April 2022 - July 2024 <span class="w3-tag w3-teal w3-round"> 2 Years </span></h6>
-          <p>In procurement I was involved in identifying the office needs, finding suppliers to provide  goods or services ,negotiating price and contracts and ensuring purchases are done in a timely and cost effective manner while adhering to the UNOPS policies and procedures. Key deliverables included the assisting the completion of the UNOPS PNG office fitout and organizing transport logistics for project staff for mission trips throughout sites in Papua New Guinea. 
-My role in ICT involved managing and maintaining the UNOPS ICT office ICT services. This included maintaining support for  software and networking systems that are used by UNOPs in PNG as well as providing technical support to clients. I ensure that there is increased efficiency, improved, communication and better decision making by providing ICT support. A key deliverable is the succesful setup and operation of the Cisco Meraki Office in the Box for the UNOPS PNG office (OIBv4)
-As the asset focal point I had the responsibility of asset management for office equipment. This responsibility involved managing the office and ICT assets, ensuring that regular audits are conducted and asset records are  constantly updated.
-</p>
-          <hr>
-        </div>     
-	   <div class="w3-container">
-          <h5 class="w3-opacity"><b>Network Officer (Buka General Hospital)</b></h5>
-          <h5 class="w3-opacity"><b>Employer - Buka General Hospital (National Department of Health) </b></h5>
-          <h6 class="w3-opacity">Location: Buka Autonomous Region of Bougainville</h6>
-          <h6 class="w3-text-teal">March 2014 - April 2022 <span class="w3-tag w3-teal w3-round">8 Years</span></h6>
-          <p>
-I was responsible for providing technical support to end users. This primarily involved installing, configuring, maintaining and troubleshooting computer hardware, software and  MS Server administration. 
-As the  network support offer my  task involved the design, scoping and installation of the Hospital Local Area Network. This invloved configuring routers, LAN cable management, network switch installation, proxy server configuration, bandwidth management and monitoring network usage. A key deliverable while working for the Hospital was the establishment of a Local Area Network and internet access for clinicians. 
-An additional task that was included in my responsibility was the annual budget planning and submission to the PNG National Department for Health for funding provision to Buka Hospital. Key deliverables included the submission of budget proposal and entry of budget requirements into the PNG Integrated Financial Management System. 
-</p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Assistant Administration Manager (International Training Intitute)</b></h5>
-          <h5 class="w3-opacity"><b>Employer - International Training Institute</b></h5>
-          <h6 class="w3-opacity"> Location: Buka Autonomous Region of Bougainville</h6>
-          <h6 class="w3-text-teal">Oct 2013 - March 2014 <span class="w3-tag w3-teal w3-round">5 Months</span></h6>
-          <p>Provided support and assistance to the administration manager ensuring that the international training institute branch at Kokopau operated effectivly and  efficiently. 
-Managed a small operational budget for the branch and supervised a staff of four while coordinating schedules and events for the institution. 
-Maintained the branch database and records and monitored the performance of staff and students ensuring that procedures and policies were adhered to.
-Managed and reconciled Petty cash expenses for the institute branch. 
-</p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Freelance IT (Edtech IT Services & Solutions)</b></h5>
-          <h5 class="w3-opacity"><b>Self Employed</b></h5>
-          <h6 class="w3-opacity"> Location: Buka Autonomous Region of Bougainville</h6>
-          <h6 class="w3-text-teal">April 2012 - October 2013 <span class="w3-tag w3-teal w3-round">6 Months</span></h6>
-          <p>Provided IT support services that involved computer hardware repair, software configuration, network setup and website design & hosting.</p><br>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>IT Lecturer</b></h5>
-          <h5 class="w3-opacity"><b>Employer - International Training Institute</b></h5>
-          <h6 class="w3-opacity"> Location: Lae, Papua New Guinea</h6>
-          <h6 class="w3-text-teal">March 2010 - May 2011 <span class="w3-tag w3-teal w3-round">1 Year 2 Months</span></h6>
-          <p>Responsible for training students in the basic use of Microsoft office suite 
-Trained students on computing concepts such as database design, computer architecture, Networking and Internet Technology. 
-Lectured students on web page design and project management.
-Prepared practical lessons for students and coordinated three subjects on Web Page Design, Project Management and Introduction to Computing. This included creating learning content for each subject
-</p><br>
-        </div>
+        <!-- Your experience content -->
       </div>
 
-      <div class="w3-container w3-card w3-white">
+      <div class="w3-container w3-card w3-white" id="education">
         <h2 class="w3-text-grey w3-padding-16">Education</h2>
         <div class="w3-container">
-          <h5 class="w3-opacity"><b>Lincoln Univeristy , Lincoln, Christchurch, New Zealand</b></h5>
-		  
-		<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1ChwzJB_0Wbm1rtUj2DiWLc87Unp79uQ&ehbc=2E312F" width="640" height="480"></iframe>
+          <h5 class="w3-opacity"><b>Lincoln University, New Zealand</b></h5>
+          <div class="responsive-iframe">
+            <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1ChwzJB_0Wbm1rtUj2DiWLc87Unp79uQ&ehbc=2E312F"></iframe>
+          </div>
           <h6 class="w3-text-teal">2017</h6>
           <p>Post-Graduate Diploma in Informatics</p>
-		  <p> Courses undertaken include: <br>
-		  <ul>
-		  <li>Interaction Design </li>
-          <li> Systems Thinking and Dynamics </li>
-          <li> Advanced Geograhpic Information System </li>
-          <li> Social research Methods </li>
-		  </ul>
-</p>
           <hr>
         </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Papua New Guinea University of Technology</b></h5>
-          <h6 class="w3-text-teal">2006 - 2009</h6>
-          <p>Bachelor Degree in Computer Science</p>
-		  <p> Courses undertaken include: <br>
-		   <ul>
-		  <li>Object Oriented Programming</li>
-          <li>Advanced Networking</li>
-          <li>Database Design - MySql</li>
-          <li>Software Engineering</li>
-		  <li>Programming in Java, C++, PHP</li>
-		  </ul>
-</p>
-          <hr>
-        </div>
+        <!-- More education here -->
       </div>
-
-    <!-- End Right Column -->
     </div>
-    
-  <!-- End Grid -->
   </div>
-  
-  <!-- End Page Container -->
 </div>
 
+<!-- Footer -->
 <footer class="w3-container w3-teal w3-center w3-margin-top">
-  <p>Find me on social media.</p>
-  <a href="https://www.linkedin.com/in/edward-omi-profile/" target="_blank">Facebook</a>
-  <a href="https://www.linkedin.com/in/edward-omi-profile/" target="_blank">Linkedin</a>
+  <p>Find me on social media</p>
+  <a href="https://www.linkedin.com/in/edward-omi-profile/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+  <a href="https://www.youtube.com/@edwardomi8352" target="_blank"><i class="fab fa-youtube"></i> YouTube</a>
 </footer>
 
-</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
+<!-- ✅ Mobile menu script -->
+<script>
+function toggleMenu() {
+  var x = document.getElementById("mobileMenu");
+  if (x.classList.contains("w3-hide")) {
+    x.classList.remove("w3-hide");
+  } else {
+    x.classList.add("w3-hide");
+  }
+}
+</script>
+
+</body>
+</html>
